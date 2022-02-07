@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=Forms by HTML, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="forms">
+        <form>
+        <div class = "prop">
+            <label id= "l1" for="name">Name</label><br><br>
+            <label id="l2" for="age">Age</label><br><br>
+            <label id="l3" for="wt">Weight</label>
+        </div>
+        <div id="input">
+            <input type="text" id="name" name="bmi" required><br><br>
+            <input type="number" id="age" name="bmi" required><br><br>
+            <input type="text" id ="wt" name="bmi" required>
+        </div>
+         </form>
+        </div>
+        <button onclick="submitForm()">Submit</button>
+        <div id="result">
+        <p id="ans"></p>
+        </div>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
